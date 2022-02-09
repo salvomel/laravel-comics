@@ -18,6 +18,8 @@
         @yield('main_content')
     </main>
 
+    @include('partials.prefooter')
+    
     @include('partials.footer')
     
 </body>

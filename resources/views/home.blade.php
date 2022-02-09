@@ -7,6 +7,5 @@ Comics
 @section('main_content')
     
     @include('partials.main')
-    @include('partials.prefooter')
 
 @endsection
