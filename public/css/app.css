@@ -72,3 +72,36 @@ body {
   background-color: #0282f9;
   color: white;
 }
+
+section {
+  background-color: #1c1c1c;
+  padding: 20px 0 25px;
+}
+section .comics {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 15px;
+}
+section .comics .comic {
+  width: 16.6666666667%;
+  padding-bottom: 20px;
+}
+section .comics .comic img {
+  width: 150px;
+}
+section .comics .comic h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+}
+section .main-button {
+  font-size: 18px;
+  text-align: center;
+}
+section .main-button a {
+  text-decoration: none;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 40px;
+}
