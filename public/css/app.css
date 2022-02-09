@@ -105,3 +105,28 @@ section .main-button a {
   background-color: #0282f9;
   padding: 10px 40px;
 }
+
+.prefooter {
+  background-color: #0282f9;
+  padding: 40px 0;
+}
+.prefooter ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.prefooter ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 15px;
+}
+.prefooter ul a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 13px;
+}
+.prefooter ul img {
+  height: 40px;
+  max-width: 40px;
+}
