@@ -1,11 +1,12 @@
 .top-header {
     background-color: $brand_primary_color;
     text-align: right;
+    padding: 3px;
 
     span {
         color: white;
-        font-size: 10px;
-        padding: 10px;
+        font-size: 9px;
+        margin-left: 20px;
         font-weight: 600;
     }
 }
@@ -35,6 +36,7 @@
 
             &.current {
                 color: $brand_primary_color;
+                border-bottom: 4px solid $brand_primary_color;
             }
 
             a {

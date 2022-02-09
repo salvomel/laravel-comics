@@ -16,11 +16,12 @@ body {
 .top-header {
   background-color: #0282f9;
   text-align: right;
+  padding: 3px;
 }
 .top-header span {
   color: white;
-  font-size: 10px;
-  padding: 10px;
+  font-size: 9px;
+  margin-left: 20px;
   font-weight: 600;
 }
 
@@ -46,6 +47,7 @@ body {
 }
 .header-wrapper .menu li.current {
   color: #0282f9;
+  border-bottom: 4px solid #0282f9;
 }
 .header-wrapper .menu li a {
   line-height: 96px;
@@ -73,33 +75,33 @@ body {
   color: white;
 }
 
-section {
+main {
   background-color: #1c1c1c;
   padding: 20px 0 25px;
 }
-section .comics {
+main .comics {
   display: flex;
   flex-wrap: wrap;
   padding: 25px 15px;
 }
-section .comics .comic {
+main .comics .comic {
   width: 16.6666666667%;
   padding-bottom: 20px;
 }
-section .comics .comic img {
+main .comics .comic img {
   width: 150px;
 }
-section .comics .comic h3 {
+main .comics .comic h3 {
   color: white;
   text-transform: uppercase;
   font-size: 15px;
   margin-top: 10px;
 }
-section .main-button {
+main .main-button {
   font-size: 18px;
   text-align: center;
 }
-section .main-button a {
+main .main-button a {
   text-decoration: none;
   color: white;
   background-color: #0282f9;
