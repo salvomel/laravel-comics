@@ -3,4 +3,3 @@
 @section('page_title')
 Comics
 @endsection
-

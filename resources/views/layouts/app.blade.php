@@ -12,7 +12,12 @@
 
     @include('partials.header')
 
-   
+    @include('partials.banner')
+
+    <main>
+        @yield('main_content')
+    </main>
+
     
 </body>
 </html>
