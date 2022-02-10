@@ -67,7 +67,7 @@ main {
 
         .cover {
             position: absolute;
-            // top: -165px;
+            bottom: 290px;
 
             img {
                 width: 140px;
@@ -76,18 +76,62 @@ main {
 
         .section-top {
             display: flex;
+            margin: 50px 0;
+
+            .comics-info {
+
+                h3 {
+                    color: #0e4c75;
+                }
+
+                .availability {
+                    background-color: #55ba59;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 15px 0;
+                    color: white;
+                }
+                
+            }
+
+            .advertisement {
+                margin-left: 30px;
+
+                h6 {
+                    text-align: right;
+                }
+
+                img {
+                    width: 250px;
+                }
+            }
         }
 
         .section-bottom {
-            display: flex;
+            background-color: #f6f6f6;
+            padding: 20px 0 50px 0;
 
-            .specs {
-                width: 50%;
-            }
+            .infos {
+                display: flex;
 
-            .talent {
-                width: 50%;
-            }
+                .specs {
+                    width: 50%;
+                    margin-left: 20px;
+                }
+    
+                .talent {
+                    width: 50%;
+    
+                    .authors {
+                        a {
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                    }
+                }
+            }                
         }
     }
 }

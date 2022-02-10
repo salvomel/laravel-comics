@@ -117,21 +117,53 @@ main.comics-details-background .pre-cover {
 }
 main.comics-details-background .cover {
   position: absolute;
+  bottom: 290px;
 }
 main.comics-details-background .cover img {
   width: 140px;
 }
 main.comics-details-background .section-top {
   display: flex;
+  margin: 50px 0;
+}
+main.comics-details-background .section-top .comics-info h3 {
+  color: #0e4c75;
+}
+main.comics-details-background .section-top .comics-info .availability {
+  background-color: #55ba59;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  color: white;
+}
+main.comics-details-background .section-top .advertisement {
+  margin-left: 30px;
+}
+main.comics-details-background .section-top .advertisement h6 {
+  text-align: right;
+}
+main.comics-details-background .section-top .advertisement img {
+  width: 250px;
 }
 main.comics-details-background .section-bottom {
+  background-color: #f6f6f6;
+  padding: 20px 0 50px 0;
+}
+main.comics-details-background .section-bottom .infos {
   display: flex;
 }
-main.comics-details-background .section-bottom .specs {
+main.comics-details-background .section-bottom .infos .specs {
+  width: 50%;
+  margin-left: 20px;
+}
+main.comics-details-background .section-bottom .infos .talent {
   width: 50%;
 }
-main.comics-details-background .section-bottom .talent {
-  width: 50%;
+main.comics-details-background .section-bottom .infos .talent .authors a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .prefooter {
