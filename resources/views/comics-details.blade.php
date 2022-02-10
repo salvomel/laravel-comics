@@ -14,8 +14,8 @@ comics-details-background
 
     <div class="cover">
       <img src="{{ $comics_info ["thumb"] }}" alt="{{ $comics_info ["title"] }}">
-      {{-- <div class="cover-text">{{ $comics_info ["type"] }}</div>
-      <a href="#" class="cover-text">VIEW GALLERY</a> --}}
+      {{-- <div class="cover-text">{{ $comics_info ["type"] }}</div> --}}
+      {{-- <a href="#">VIEW GALLERY</a> --}}
     </div>
     
     <div class="section-top">
@@ -51,35 +51,43 @@ comics-details-background
         <div class="talent">
           <h3>Talent</h3>
     
-          <div class="talent-info">
-            <h6>Art by:</h6>
-              <p class="authors">
-                @foreach ($comics_info["artists"] as $artist)
-                  <a href="#">{{ $artist }}</a><span>{{ $loop->last ? "." : "," }}</span>
-                @endforeach
-              </p>
+            <div class="art-by">
+              <h6>Art by:</h6>
+                <p class="authors">
+                  @foreach ($comics_info["artists"] as $artist)
+                    <a href="#">{{ $artist }}</a><span>{{ $loop->last ? "." : "," }}</span>
+                  @endforeach
+                </p>
+            </div>
+            <div class="written-by">
               <h6>Written by:</h6>
               <p class="authors">
                 @foreach ($comics_info["writers"] as $writer)
                   <a href="#">{{ $writer }}</a><span>{{ $loop->last ? "." : "," }}</span>
                 @endforeach
               </p>
-          </div>
+            </div>
+          
         </div>
     
         <div class="specs">
           <h3>Specs</h3>
-    
-          <div class="specs-info">
-            <h6>Series:</h6>
-              <p><a href="#" class="text-uppercase">{{ $comics_info["series"] }}</a></p>
-            
-            <h6>U.S. Price:</h6>
-              <p>{{ $comics_info["price"] }}</p>
-          
-            <h6>On Sale Date:</h6>
-            <p>{{ $comics_info["sale_date"] }}</p>
+
+          <div class="series-info">
+            <span>Series:</span>
+            <span><a href="#">{{ $comics_info["series"] }}</a></span>
           </div>
+            
+          <div class="price-info">
+            <span>U.S. Price:</span>
+            <span>{{ $comics_info["price"] }}</span>
+          </div>
+          
+          <div class="date-info">
+            <span>On Sale Date:</span>
+            <span>{{ $comics_info["sale_date"] }}</span>
+          </div>
+          
         </div>   
       </div>
     </div>

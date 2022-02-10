@@ -157,9 +157,29 @@ main.comics-details-background .section-bottom .infos {
 main.comics-details-background .section-bottom .infos .specs {
   width: 50%;
   margin-left: 20px;
+  font-size: 13px;
+}
+main.comics-details-background .section-bottom .infos .specs h3 {
+  margin-bottom: 10px;
+}
+main.comics-details-background .section-bottom .infos .specs .price-info {
+  margin: 10px 0;
 }
 main.comics-details-background .section-bottom .infos .talent {
   width: 50%;
+  font-size: 13px;
+}
+main.comics-details-background .section-bottom .infos .talent .art-by {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+main.comics-details-background .section-bottom .infos .talent .written-by {
+  display: flex;
+  justify-content: space-between;
+}
+main.comics-details-background .section-bottom .infos .talent .authors {
+  width: 70%;
 }
 main.comics-details-background .section-bottom .infos .talent .authors a {
   text-decoration: none;

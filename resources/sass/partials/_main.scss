@@ -119,12 +119,35 @@ main {
                 .specs {
                     width: 50%;
                     margin-left: 20px;
+                    font-size: 13px;
+
+                    h3 {
+                        margin-bottom: 10px;
+                    }
+
+                    .price-info {
+                        margin: 10px 0;
+                    }
                 }
     
                 .talent {
                     width: 50%;
-    
+                    font-size: 13px;
+                    
+                    .art-by {
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 10px 0;
+                    }
+
+                    .written-by {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
                     .authors {
+                        width: 70%;
+
                         a {
                             text-decoration: none;
                             color: inherit;
