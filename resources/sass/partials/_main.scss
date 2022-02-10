@@ -1,8 +1,8 @@
 main {
-
+    
     &.home-background {
         background-color: $home_background;
-        padding: 20px 0 25px;
+        padding: 20px 0 0 0;
         
         .comics-list {
 
@@ -45,6 +45,7 @@ main {
             .main-button {
                 font-size: 18px;
                 text-align: center;
+                margin-bottom: 25px;
             
                 a {
                     text-decoration: none;
@@ -52,6 +53,40 @@ main {
                     background-color: $brand_primary_color;
                     padding: 10px 40px;
                 }
+            }
+        }
+    }
+
+    &.comics-details-background {
+        background-color: white;
+
+        .pre-cover {
+            background-color: $brand_primary_color;
+            height: 60px;
+        }
+
+        .cover {
+            position: absolute;
+            // top: -165px;
+
+            img {
+                width: 140px;
+            }
+        }
+
+        .section-top {
+            display: flex;
+        }
+
+        .section-bottom {
+            display: flex;
+
+            .specs {
+                width: 50%;
+            }
+
+            .talent {
+                width: 50%;
             }
         }
     }

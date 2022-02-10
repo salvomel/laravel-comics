@@ -12,4 +12,6 @@ home-background
     
     @include('components.comics-list')
 
+    @include('partials.prefooter')
+
 @endsection

@@ -17,8 +17,6 @@
     <main class="@yield('main_classes')">
         @yield('main_content')
     </main>
-
-    @include('partials.prefooter')
     
     @include('partials.footer')
     
