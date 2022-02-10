@@ -3,19 +3,4 @@
     background-image: url(../images/jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
-    .container {
-        position: relative;
-    }
-
-    .button-top{
-        position: absolute;
-        bottom: -370px;
-        left: 0;
-        font-size: 20px;
-        padding: 10px 20px;
-        text-decoration: none;
-        background-color: $brand_primary_color;
-        color: white
-    }
 }

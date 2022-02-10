@@ -1,7 +1,3 @@
 <section>
-    <div class="banner">
-        <div class="container">
-            <a href="#" class="button-top">CURRENT SERIES</a>
-        </div> 
-    </div>
+    <div class="banner"></div>
 </section>

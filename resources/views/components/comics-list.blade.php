@@ -1,5 +1,11 @@
-<main>
+<section class="comics-list">
+    
     <div class="container">
+    
+        <div class="button-top">
+            <a href="#">CURRENT SERIES</a> 
+        </div>
+    
         <div class="comics">
             @foreach($comics as $comic)
                 <div class="comic">
@@ -8,8 +14,9 @@
                 </div>
             @endforeach
         </div>
+    
         <div class="main-button">
             <a href="#">LOAD MORE</a>
         </div>
     </div>
-</main>
+</section>
